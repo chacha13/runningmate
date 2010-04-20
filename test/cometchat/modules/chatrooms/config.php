@@ -1,0 +1,11 @@
+<?php
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* LANGUAGE */
+
+$chatrooms_language[0]	=	"Please login to use our chatrooms.";
+$chatrooms_language[1]	=	"Please join a chatroom from the left navigation or <a href=\"javascript:void(0);\" onclick=\"javascript:createChatroom();\">create your								own</a>. Your chatroom will be automatically deleted after 10 minutes of inactivity.";
+$chatrooms_language[2]	=	"Create Chatroom";
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

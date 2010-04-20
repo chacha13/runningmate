@@ -1,0 +1,91 @@
+	li {
+		font-size:9pt;
+		font-weight:normal;
+		/*background: #f7f7f7;*/
+		color:#000;
+		width: 400px;
+		padding: 5px;
+		border-bottom: 1px solid #d8dfea;
+	}
+	/*li:hover  {
+		color: #FFF;
+	        background-color: #dea9a8;
+		background-color:#3B5998;
+	}*/
+	.fbx-tiny {
+		font-size: 10px;
+	}
+	.comment_box
+	{
+		background-color:#D3E7F5; border-bottom:#ffffff solid 1px; padding-top:3px
+	}
+	h1
+	{
+		color:#555555
+	}
+	a
+	{
+		text-decoration:none;
+		color:#d02b55;
+	}
+	a:hover
+	{
+		text-decoration:underline;
+		color:#d02b55;
+	}
+	
+	border-top:1px dashed #dedede;
+	}
+	.comment_button
+	{
+		font-size: 9px; 
+	}
+	
+	.comment_submit
+	{
+		background-color:#3b59a4; 
+		color:#FFFFFF; 
+		border:none; 
+		font-size:10px; 
+		padding:3px; 
+		margin-top:3px;
+	}
+	.panel
+	{
+		margin-left:30px; 
+		margin-right:10px; 
+		margin-bottom:5px; 
+		background-color: #dedede; 
+		height: auto; 
+		padding:6px; 
+		width:345px;
+		display:none;
+	}
+	.load_comment
+	{
+		margin-left: 0; 
+		margin-right:0; 
+		margin-bottom:0; 
+		/*background-color:#D3E7F5;*/ 
+		height: auto; 
+		padding:0px; 
+		width:400px; 
+		font-size:10px;
+	}
+	.flash_load
+	{
+		margin-left:50px; 
+		margin-right:50px; 
+		margin-bottom:0;
+		height:20px; 
+		padding:6px; 
+		width:400px; 
+		display:none;	
+	}
+	#futuro {
+		  text-align: right;
+		  position:fixed;
+		  top:0;
+		  width:100%;
+		  background:#ccc;
+	}

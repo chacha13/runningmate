@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+#page-wrap {
+	width: 1000px;
+	background: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.button {
+	float: left;
+	margin: 0px;
+}
+
+#home {
+	display: block;
+	padding: 0px;
+}
+#home-button {
+	opacity: 1.0;
+	border-top: 0px solid #e87b3d;
+}
+
+#connect {
+	display: none;
+	padding: 0px;
+}
+#connect-button {
+	opacity: 0.5;
+	border-top: 0px solid #e87b3d;
+}
+
+#races {
+	display: none;
+	padding: 0px;
+}
+#races-button {
+	opacity: 0.5;
+	border-top: 0px solid #e87b3d;
+
+}

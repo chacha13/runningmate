@@ -1,0 +1,203 @@
+.dp-choose-date {
+	background: #3898D8;
+	border-right: 0;
+	border-left: 0;
+	font-size: 16pt;
+	color: black;
+	font-weight:bold;
+}
+/*
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+	color:#000;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+
+input.dp-applied {
+	width: 140px;
+	float: left;
+	color:#000;
+}*/
+
+
+#bodyInit{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	color: #fff;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+fieldset {
+background: #fff;
+border: 1px dashed #9a9865;
+width: 100%;
+
+}
+legend {
+color: white;
+font-weight: bold;
+background: #cdcb98;
+padding: .4em 1em;
+}
+label {
+width: 10em;
+float: left;
+text-align: right;
+margin-right: 0.2em;
+display: block;
+color:#000;
+}
+.form_row {
+white-space: nowrap;
+padding-bottom: .5em;
+text-align: left;
+color:#000;
+}
+.submit {
+margin-left: 15em;
+}
+
+
+
+
+#bodyInit h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 30px;
+	font-style: bold;
+	letter-spacing: 0px;
+		
+}
+
+#bodyInit h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-style: bold;
+	letter-spacing: 0px;
+		
+}
+#bodyInit a, a:link, a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fde92d;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	background-image: none;
+}
+
+#bodyInit a:hover, a:active{
+	text-decoration: underline;
+	color: #fff;
+}
+
+#header-div{
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	height: 386px;
+	width: 994px;
+	margin: 0px auto;
+	}
+	
+#body-div{
+	background-image: url(images/body-bg.gif);
+	background-repeat: no-repeat;
+	height: 337px;
+	width: 994px;
+	margin: 0px auto;
+	}
+#body-menu{
+	width: 368px;
+	height: 20px;
+	border:0px solid black;
+	
+	padding: 30px 0px 0px 0px;
+	margin: 0px 0px 0px 181px;
+	
+}	
+#body-menu a, a:link, a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #8a8e89;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	background-image: none;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #8a8e89;
+	border-left: 1px solid #8a8e89;
+
+}
+
+#body-menu a:hover, a:active{
+	text-decoration: none;
+	color: #fbec22;
+}
+	
+#body-div #main-text-div{
+	border:0px solid black;
+	width: 368px;
+	height: 170px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 181px;
+}
+
+#highlight{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#content-all{
+	background-image: url(images/content-bg.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 994px;
+	margin: 0px auto;
+	padding:0px;
+	overflow: auto;
+	
+
+}
+
+#laman{
+		border:0px solid black;
+		margin: 0px 0px 0px 178px;
+		width: 674px;
+		height: auto;
+		position: relative;
+		
+}
+
+#footer{
+	background-image: url(images/footer.gif);
+	background-repeat: repeat-y;
+	height: 148px;
+	width: 994px;
+	margin: 0px auto;
+	padding:0px;
+}
+
+#yellow-text{
+	color: #fbec22;
+}
+#terms{
+font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+font-size: 8pt;
+margin-left: 12em;
+text-align: left;
+color:#000;
+}
+#terms1{
+font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+font-size: 8pt;
+margin-left: 0;
+text-align: left;
+color:#000;
+}

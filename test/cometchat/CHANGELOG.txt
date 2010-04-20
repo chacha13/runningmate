@@ -1,0 +1,103 @@
+ CometChat Change Log
+-------------------------------------------------------------
+
+ 1.5.123
+-------------------------------------------------------------
+
+Bug fixes
++ Chatrooms functionality
++ Simplified installation process
+
+-------------------------------------------------------------
+
+ 1.5.112
+-------------------------------------------------------------
+
+Enhancements
++ Streamlined installation process
+
+Bug fixes
++ YouTube link feature
++ Chatrooms functionality
++ Miscellaneous reported bugs
+
+-------------------------------------------------------------
+
+ 1.5.0
+-------------------------------------------------------------
+
+Features
++ Avatar support 
++ Gravatar support for sites with no avatars
++ Ability to go to user profile on clicking of name (in chatbox)
++ Youtube video integration
++ Ability to display first name only in chat conversations
++ Overall chat speed enhancements
++ Ability to login by clicking on yellow alert icon
++ Title-bar update when new message arrives
++ Different colors for incoming and outgoing messages
++ Improved synchronization with multiple open windows
++ Plugins/modules support
++ Themes support
+
+Themes
++ Default theme
++ Dark theme
+
+Administration features
++ Spy: View users chatting in real-time!
++ Logs: View conversation logs of users
++ Chatrooms: Ability to specify default chatrooms
+
+Bundled Modules
++ Chatroom module
+
+Bundled Plugins
++ Timestamp Plugin: Display time when messages arrive
++ Send File Plugin: Ability to send files to users
++ Clear Chat History Plugin: Ability to clear chat window
++ View History Plugin: View user chat logs
+
+API
++ chatWith: Allows you to add a link on your page to chat with users (including users not part of friends list)
++ sendMessage: Allows you to send a message to a user (from the logged-in user)
+
+Bug fixes
++ Auto-linking bug fix
++ Better support for Internet Explorer
++ Miscellaneous bug fixes
+
+-------------------------------------------------------------
+
+
+ 1.2
+-------------------------------------------------------------
+
+Fix: 10x Speed Enhancements
+Feature: Custom popup boxes
+
+
+ 1.1
+-------------------------------------------------------------
+
+Feature: Custom icons feature (left-side)
+Feature: Auto-parsing of links
+Feature: Smileys
+Feature: Bad-word filter
+Feature: Internationalization option
+Feature: Sound alerts (user-level disable feature)
+Feature: Auto-popup of boxes feature
+Feature: Added various customization options (fine-tweaking)
+Bug: Charset fix
+Bug: Newline character fix
+
+ 1.0.1
+-------------------------------------------------------------
+
+Bug: \' slashes bug
+Bug: Slowing of script due to large number of friends
+
+ 1.0.0
+-------------------------------------------------------------
+
+Initial release of script

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pilipino Star Ngayon Fun Run</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link type="text/css" rel="stylesheet" href="application.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<link rel="stylesheet" href="http://runningmate.ph/stylesheets/ui.all.css?1257234139" type="text/css" media="screen" charset="utf-8" />
+<script src="http://runningmate.ph/javascripts/ui.core.js" type="text/javascript"></script>
+<script src="http://runningmate.ph/javascripts/effects.core.js" type="text/javascript"></script>
+<script src="http://runningmate.ph/javascripts/effects.highlight.js" type="text/javascript"></script>
+<script src="http://runningmate.ph/javascripts/ui.draggable.js" type="text/javascript"></script>
+<script src="http://runningmate.ph/javascripts/ui.resizable.js" type="text/javascript"></script>
+<script src="http://runningmate.ph/javascripts/ui.dialog.js" type="text/javascript"></script>
+<script src="http://runningmate.ph/javascripts/jquery.bgiframe.js" type="text/javascript"></script>
+
+</head>
+<body id="bodyInit">
+<style>
+#link{
+
+color: yellow; 
+font-size: 12pt; 
+background: none; 
+cursor: pointer;
+padding: 2px;
+border:none;
+
+}
+
+</style>
+<script type="text/javascript"> 
+$(function() {
+		
+		var name = $("#name"),
+			email = $("#email"),
+			password = $("#password"),
+			allFields = $([]).add(name).add(email).add(password),
+			tips = $("#validateTips");
+ 
+		function updateTips(t) {
+			tips.text(t).effect("highlight",{},1500);
+		}
+ 
+		function checkLength(o,n,min,max) {
+ 
+			if ( o.val().length > max || o.val().length < min ) {
+				o.addClass('ui-state-error');
+				updateTips("Length of " + n + " must be between "+min+" and "+max+".");
+				return false;
+			} else {
+				return true;
+			}
+ 
+		}
+ 
+		function checkRegexp(o,regexp,n) {
+ 
+			if ( !( regexp.test( o.val() ) ) ) {
+				o.addClass('ui-state-error');
+				updateTips(n);
+				return false;
+			} else {
+				return true;
+			}
+ 
+		}
+		
+		$("#dialog").dialog({
+			bgiframe: true,
+			autoOpen: false,
+      width: 500,
+			height: 500,
+			modal: true,
+			buttons: {
+ 
+				OK: function() {
+					$(this).dialog('close');
+				}
+			},
+			close: function() {
+				allFields.val('').removeClass('ui-state-error');
+			}
+		});
+		
+		
+		
+		$('#create-user').click(function() {
+			$('#dialog').dialog('open');
+		})
+		.hover(
+			function(){ 
+				$(this).addClass("ui-state-hover"); 
+			},
+			function(){ 
+				$(this).removeClass("ui-state-hover"); 
+			}
+		).mousedown(function(){
+			$(this).addClass("ui-state-active"); 
+		})
+		.mouseup(function(){
+				$(this).removeClass("ui-state-active");
+		});
+		
+		$("#dialog2").dialog({
+			bgiframe: true,
+			autoOpen: false,
+      width: 500,
+			height: 500,
+			modal: true,
+			buttons: {
+ 
+				OK: function() {
+					$(this).dialog('close');
+				}
+			},
+			close: function() {
+				allFields.val('').removeClass('ui-state-error');
+			}
+		});
+		
+		
+		
+		$('#create-user2').click(function() {
+			$('#dialog2').dialog('open');
+		})
+		.hover(
+			function(){ 
+				$(this).addClass("ui-state-hover"); 
+			},
+			function(){ 
+				$(this).removeClass("ui-state-hover"); 
+			}
+		).mousedown(function(){
+			$(this).addClass("ui-state-active"); 
+		})
+		.mouseup(function(){
+				$(this).removeClass("ui-state-active");
+		});
+ 
+	});
+ 
+ 
+	</script> 
+<div id="dialog" title="Registration Mechanics"> 
+		<div align="left">		
+			ADOPT-A-SCHOOL
+
+is one of our projects through our umbrella program; BUILDING GREAT BRIDGES (BGB) through Education. Now our ninth year, we chose to adopt San Isidro Elementary School in Naguillan, La Union. Part of the school building was damaged by typhoon Pepeng last November 2009 leaving part of the school building abandoned. The damaged rooms used to be occupied by grades 2 and 4 pupils.
+The water from the behind the school overflowed half the height of the single story building. For now, grades 2 and 4 pupils share classrooms with other classes until another classroom would be built for them.
+Operation Damayan aim to build two classrooms and a library for 150 pupils of San Isidro Elem. School. Construction of the proposed classrooms and library is scheduled immediately in time for the opening of school year this June 2010.
+			
+			<br /><br /> 
+			<b>DATE & TIME</b><br /> 
+			15 May 2010, Saturday<br /> 
+			Assembly: 5am<br /> 
+			Start of Race: 5:30am<br /> 
+			Awarding: est. 8am<br /><br /> 
+			
+			<b>VENUE</b><br /> 
+			SM Mall of Asia<br />								
+			<br /> 
+			
+			<b>CATEGORIES</b><br /> 
+			Men's Division: 3k, 5k & 10k<br /> 
+			Ladies' Division: 3k, 5k & 10k<br /><br /> 
+ 
+			<b>ENTRY FEE</b><br /> 
+			3K & 5K: Php350<br /> 
+			10K: P400 each<br /> 
+			Includes: Race Bib, Runningmate Timing Chip, Singlet& Route Map<br /><br /> 
+ 
+			<b>PARKING</b><br /> 
+			ALL PARTICIPANTS AND OTHER SPECTATORS ARE REQUIRED TO PARK THEIR VEHICLES AT THE ALLOCATED PARKING AREAS. <br /><br /> 
+ 
+			<b>BAGGAGE AREA</b><br /> 
+			BAGGAGE DEPOSIT SERVICE IS AVAILABLE NEAR THE STAGE FROM 5AM TO 10AM.
+			<br /><br /> 
+			<b>WATER AND FIRST AID STATION</b><br /> 
+			DRINKING WATER WILL BE PROVIDED AT THE FINISH LINE AND AT EVERY 2 KM.<br /> 
+			MEDICAL AID WILL BE AVAILABLE AT CERTAIN POINTS AND AT THE FINISH LINE.<br /><br /> 
+ 
+			<b>AWARDS & PRIZES</b><br/>
+			TOP 5 OVERALL FINISHERS will	 receive special gift packs.<br />		
+			
+			3Km & 5Km 	             10Km<br />
+			1st prize: P5,000                         1st prize: P7,000<br/>
+			2nd prize: P3,000                        2nd prize:P5,000 <br />
+<br />
+			
+			<b>RULES & REGULATIONS</b> 
+			<ul> 
+			<li>Participants below 18 years old must have their entry form signed by a guardian.</li> 
+			<li>RACE BIB NUMBERS AND THE RUNNINGMATE TIMING CHIP MUST BE WORN AT ALL TIMES DURING THE RACE. IT SHOULD BE PINNED IN-FRONT OF YOUR RUNNING SHIRT. </li> 
+			<li>NO CHANGE OF CATEGORY. </li> 
+			<li>ALL PROTESTS RELATED TO THE RESULT MUST BE MADE IN WRITING AND SUBMITTED TO THE RACE ORGANIZER WITHIN 30 MINUTES AFTER THE OFFICIAL ANNOUNCEMENT OF WINNERS. A PROTEST FEE OF PHP500 WILL BE COLLECTED FOR EVERY WRITTEN PROTEST MADE.</li> 
+			<li>THE ORGANIZER’S DECISION IS FINAL.</li>  
+			</ul><br /> 
+			<b>PAYMENT</b><br /> 
+    Acct. Name : Pilipino Star Ngayon Inc.<br />
+     (BDO) Acct. No. 2588-011-642<br />
+   Bank/Branch: Bank of the Philippine Islands<br />
+ (BPI) Acct. No. 004993-0220-85<br />
+<ul>
+<li>  Write your name on the deposit slip and fax to 527-6852</li>
+<li>  Present your ID at the Registration Booth between 4:00am  5:30am on the day of the event to claim your Race Kit.</li>
+<li> For inquiries call 527-6852 or 521-3995</li>
+</ul>
+
+<b> WAIVER OF LIABILITY</b><br/>
+I UNDERSTAND THAT MY PARTICIPATION IN ANY OF THE 3, 5 AND 10 KM RUNS 
+INVOLVES RISKS IN RUNNING OR WALKING A PUBLIC ROAD AND SUCH HAZARDS 
+ INCLUDE THOSE FROM AND NOT LIMITED TO MOTORISTS, PARTICIPANTS, SPECTATORS, 
+ WEATHER CONDITIONS AND MY OWN HEALTH. <br/><br/>
+ 
+ I VOLUNTARILY ASSUME SUCH RISKS 
+ AND HOLD THE ORGANIZERS FREE AND HARMLESS FROM ANY LIABILITY, 
+ CLAIM OR ACTION ARISING FROM ANY INJURY, DISABILITY OR DAMAGE THAT  I MAY SUFFER. <br/><br/>
+
+ I CERTIFY THAT I AM PHYSICALLY FIT TO PARTICIPATE IN THIS EVENT AND THAT  I HAVE BEEN EXAMINED 
+ BY A COMPETENT MEDICAL PERSONNEL WHO ALLOWED ME TO PARTICIPATE HEREIN.
+  <br/><br/>
+  I GIVE MY CONSENT TO THE ORGANIZERS TO ADMINISTER EMERGENCY MEDICAL TREATMENT
+   IN THE EVENT THAT IS NEEDED. FINALLY, I AUTHORIZE THE ORGANIZERS TO USE MY NAME,
+    IMAGE AND VOICE WITHOUT ANY PAYMENT IN ANY BROADCAST AND PRINT MEDIA FOR THE PURPOSE 
+    OF PROMOTING AND MARKETING THE EVENT AND THE SPONSORSHIPS AND FOR ANY OTHER LEGITIMATE PURPOSE.
+
+
+
+
+ 
+ 
+ 
+ 
+		</div> 
+    </div> 
+    
+
+
+
+	<div id="header-div"></div>
+	<div id="body-div">
+		<div id="body-menu">
+			<a href="index.htm">home </a>
+			<a href="register.php">register </a>
+			<a href="list.php">see who's running </a>			
+		</div>
+		<div id="main-text-div">
+			<h1>ADOPT-A-SCHOOL </h1>
+
+			<p>is one of our projects through our umbrella program; BUILDING GREAT BRIDGES (BGB) through Education. Now our ninth year, we chose to adopt San Isidro Elementary School in Naguillan, La Union. Part of the school  building was damaged by typhoon Pepeng last November 2009 leaving part of the school building abandoned. The damaged rooms used to be occupied by grades 2 and 4 pupils.</p>
+		</div>
+		<div id="main-text-div" style="width: 694px; height: 100px;">
+			<p>The water from the behind the school overflowed half the  height of the single story building. For now, grades 2 and 4 pupils share classrooms with other classes until another classroom would be built for them.</p>
+
+			<p><span id="highlight">Operation Damayan </span>aim to build two classrooms and a library for 150 pupils of San Isidro Elem. School. Construction of the proposed classrooms and library is scheduled immediately in time for the opening of school year this June 2010.</p>
+		</div>
+		
+	</div>
+	
+	<!- -------------------------- CONTENT STARTS HERE -------------------------- ->
+	<div id="content-all">
+		<!- ---- MGA LAMAN AT INFO PATI MGA REGISTRATION FIELDS DITO NKALAGAY SA DIV NA TO ----- ->
+		<div id="laman">
+				<center><a id="create-user" style="color: yellow; font-weight:bold; font-size: 12pt; background: none; cursor: pointer; padding: 2px;">learn more about this run</a> </center>
+				<center><font color="yellow">Download</font> &nbsp;&nbsp;
+				         <a id="link" href="http://pilipinostarfunrun.agilitypilipinas.com/map_and_reg/10K.jpg" target="_blank">10K Map</a> &nbsp;
+				         <a id="link" href="http://pilipinostarfunrun.agilitypilipinas.com/map_and_reg/5K.jpg" target="_blank">5K Map</a> &nbsp;
+				         <a id="link" href="http://pilipinostarfunrun.agilitypilipinas.com/map_and_reg/3K.jpg" target="_blank">3K Map</a> &nbsp;
+				         <a id="link" href="http://pilipinostarfunrun.agilitypilipinas.com/map_and_reg/new_reg.pdf">Registration Form</a> &nbsp;
+				         <a id="link" href="http://pilipinostarfunrun.agilitypilipinas.com/map_and_reg.zip">All</a> 
+				
+				
+				</center>
+				
+		
+
+			<p>&nbsp;</p>
+			
+			<div style="position:relative; height: 102px;">
+				<div style="float: left; width: 150px; height: 100px; margin:0px 0px 0px 30px;">
+				<h2>Entry Fee</h2>
+				<p id="yellow-text"> 3k and 5k - Php 350 <br>
+				10k - Php 400
+				</p>
+				</div>
+				
+				<div style="float: left; width: 150px; height: 100px;">
+				<h2>Date and Time</h2>
+				<p id="yellow-text"> May 15, 2010 <br>
+				Assembly: 5 am <br>
+				</p>
+				</div>
+				
+				<div style="float: left; width: 150px; height: 100px;">
+				<h2>Venue</h2>
+				<p id="yellow-text"> SM Mall of Asia <br>
+				</p>						
+				</div>
+				
+				<div style="float: left; width: 150px; height: 100px;clear:right;">
+				<h2>Category</h2>
+				<p id="yellow-text"> 
+					3k and 5k Division <br>
+					10k Division <br>
+				</p>						
+				</div>
+			</div>
+			
+			<p id="yellow-text" style="position: relative; margin: 20px 0px 10px 0px;">Media Partners:</p>
+			<img src="images/sponsors.gif" />
+			
+		</div>
+		<!- ----- HANGGANG DITO UNG LAMAN ------ ->
+	</div>
+	
+	<div id="footer"></div>
+</body>
+</html>

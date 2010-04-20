@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	overflow: hidden;
+}
+
+.cometchat_tabcontenttext {
+	height: 200px;
+	border-bottom:1px solid #000;
+	padding: 5px;
+	width: 217px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height:265px;
+	width:340px;
+	background-color: #333;
+	color: #fff;
+	
+
+}
+
+.cometchat_ts {
+	color:#999;font-size:10px;padding-top:2px;padding-left:5px;
+	cursor: default;
+}
+
+.cometchat_ts:hover {
+	color:#eee;font-size:10px;padding-top:2px;padding-left:5px;
+}
+.cometchat_chatboxmessage {
+	margin-left:1em;
+}
+
+.cometchat_chatboxmessagefrom {
+	margin-left:-1em; /* Comment this line if your page direction is rtl */
+	font-weight: bold;
+}
+
+.cometchat_textarea {
+	border: 0px;
+	height: 18px;
+	overflow: hidden;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 11px;
+	color: #fff;
+	background-color: #333333;
+	outline:none;
+	width:320px;
+}
+
+.cometchat_tabcontentinput {
+	padding:4px 5px 0px 25px;
+	border:0px;
+	border-top: 1px solid #666;
+	background: url(../../../../themes/dark/images/cometchat.png) no-repeat top left;
+	_background: url(../../../../themes/dark/images/cometchat.gif) no-repeat top left;
+	background-position: 5px -25px;
+	outline:none;
+	background-color: #333;
+	padding-bottom:5px;
+}
+
+.cometchat_tabpopup {
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:11px;
+	background-color: #999;
+	float:left;
+	width:350px;
+	height:300px;
+	border-right:1px solid #666;
+	padding-bottom:5px;
+}
+
+.chatbox {
+	float:right;
+	width:149px;
+	height:300px;
+	padding-top:5px;
+	background-color: #333;
+	color: #fff;
+}
+
+.cometchat_userlist_hover {
+	background-color: #666 !important;
+	color: #fff;
+}
+
+html {
+	overflow: hidden;
+}
+ 
+.cometchat_userlist {
+	cursor: pointer;
+	height: 20px;
+
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:11px;
+}
+
+.cometchat_userscontentname {
+	float:left;
+ 	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+
+.cometchat_chatroomselected {
+	background-color:#000;
+	font-weight: bold;
+}
+
+.cometchat_tabcontenttext a {
+	color: #fff;
+}
+
+.createchatroom {
+	text-align:center;
+	border-top:1px solid #666;
+	border-left:1px solid #000;
+	background-color:#333;
+	color: #fff;
+	font-family:'Lucida	Grande',Verdana,Arial,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	padding-bottom:10px;
+ 
+}
+
+
+#chatrooms {
+	height:270px !important;
+	overflow-y:auto;
+	overflow-x:hidden;
+	border-left:1px solid #000;
+	border-bottom:1px solid #000;
+}
+.welcomemessage {
+	padding:3px;
+}
+
+.container {
+	background-color: #000;
+	-moz-opacity:.90; filter:alpha(opacity=90); opacity:.90;
+
+}

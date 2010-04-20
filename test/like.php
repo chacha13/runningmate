@@ -6,7 +6,7 @@ session_start();
 		echo 'window.location.replace("login.php")';
 		echo '</script>';
 	}
-$connection = mysql_connect ("localhost", "agilityp", "P@ssword1");
+$connection = mysql_connect ("localhost", "", "");
 if ($connection == false)
 {
 	echo mysql_errno().": ".mysql_error()."<BR>";

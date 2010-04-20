@@ -1,5 +1,5 @@
 <?php
-$connection = mysql_connect("localhost", "agilityp", "P@ssword1");
+$connection = mysql_connect("localhost", "", "");
 if ($connection == false)
 {
 	echo mysql_errno().": ".mysql_error()."<BR>";

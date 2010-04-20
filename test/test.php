@@ -6,7 +6,7 @@ require_once("class.phpmailer.php");
 				$mailer->SMTPAuth = true; 
 
 				$mailer->Username = 'no-reply@agilitypilipinas.com';
-				$mailer->Password = 'P@ssword1';
+				$mailer->Password = '';
 				$mailer->FromName = 'Runningmate';
 				$mailer->From = 'no-reply@agilitypilipinas.com';
 				$mailer->AddAddress('charlieperena@yahoo.com', 'Charlie Perena');
